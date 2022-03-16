@@ -8,4 +8,4 @@ for(i = 0; i < 6; i++){
     }
 }
 
-document.getElementById("container").innerHTML = `Gli elementi della lista sono: ${lista}`;
+document.getElementById("container").innerHTML = `<h1>Gli elementi della lista sono: ${lista}</h1>`;
