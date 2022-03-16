@@ -1,5 +1,5 @@
-let numeroUno = prompt("Inserisci il primo numero: ");
-let numeroDue = prompt("Inserisci il secondo numero: ");
+let numeroUno = parseInt(prompt("Inserisci il primo numero: "));
+let numeroDue = parseInt(prompt("Inserisci il secondo numero: "));
 
 if (numeroUno > numeroDue) {
     document.getElementById("container").innerHTML = `<h1>Il primo numero è quello più grande: ${numeroUno}</h1>`;
